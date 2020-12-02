@@ -1,0 +1,6 @@
+framework module PWGCDTimer {
+  umbrella header "PWGCDTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

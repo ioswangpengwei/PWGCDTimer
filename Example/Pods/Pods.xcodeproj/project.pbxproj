@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072C52B95C58D7158662CB3B402621D2 /* Pods-PWGCDTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E58252B3E0930C31F2DFDDA5EAD118 /* Pods-PWGCDTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11AEDBF1F1CCCE83719926DE6F130529 /* Pods-PWGCDTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4A54EB167D94657443B2158811E0F /* Pods-PWGCDTimer_Tests-dummy.m */; };
+		3EC0F877E79B08DEC5845C956277DB55 /* PWGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A85E6C206C2B7B377EA2438A953C38 /* PWGCDTimer.m */; };
+		42228814DC061165BDFA6B0119BF7A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8B99BBAD02DC720F39759BC755718129 /* PWGCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F34A28E1286BFBA6416B0DEC83B164 /* PWGCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0E7C477378083046F02146D658CB290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B8A94FCE4D833C7F2B3ED6F05A626A60 /* PWGCDTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2F6E7B1E5710D91B38D7633B6715B4 /* PWGCDTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C195DD4F33FFCDE30B388920454FDB0D /* PWGCDTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA784D47C613675C8298960A370FDB97 /* PWGCDTimer-dummy.m */; };
+		CD15606B0B28DAA754ED36AE308F0220 /* Pods-PWGCDTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E4DF188AC3C4DB34F74ED14228AA44 /* Pods-PWGCDTimer_Example-dummy.m */; };
+		D1252D6AA2283E5C574B5BA813534528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E128F146815D6D40794ECAD57E1DCE87 /* Pods-PWGCDTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E3D0CA49233AA12051D41248FF6A57 /* Pods-PWGCDTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F39EAC81C6B25FAE8E138BB06DC6BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CF49ED853F4B02AD4BD6260EB1D230;
+			remoteInfo = PWGCDTimer;
+		};
+		7EBD42BD4643E519AB3BD4BFBB378035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272087772D7F72B9F40FEBA217537D51;
+			remoteInfo = "Pods-PWGCDTimer_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0824709EF5F3234604B48FEC80F78BFE /* Pods-PWGCDTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PWGCDTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		08F34A28E1286BFBA6416B0DEC83B164 /* PWGCDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PWGCDTimer.h; path = PWGCDTimer/Classes/PWGCDTimer.h; sourceTree = "<group>"; };
+		0D6445C093DB94E0F0085B848F8D673B /* PWGCDTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PWGCDTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA4A54EB167D94657443B2158811E0F /* Pods-PWGCDTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PWGCDTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		1EC9B97D5BAA109EB16CD398451E69CA /* Pods-PWGCDTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PWGCDTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32E04962DF7886ADBD198033A4251217 /* PWGCDTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PWGCDTimer.modulemap; sourceTree = "<group>"; };
+		3A5BAD21517B723FF3B168BA9F01B88D /* Pods-PWGCDTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWGCDTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B36D98354F927E15A3D7EDDEF87E623 /* PWGCDTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PWGCDTimer.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		5A5D29FA2A930E9EF910043E39824FAF /* Pods-PWGCDTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PWGCDTimer_Example.modulemap"; sourceTree = "<group>"; };
+		5B0B3AE65BAC2E1A4F3B5EE446DC3881 /* Pods-PWGCDTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWGCDTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6CF8C2C8B4F3A5D1E8A1C71225525E7D /* Pods-PWGCDTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWGCDTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D1917763DA76DDAF280101FAE28530F /* PWGCDTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWGCDTimer.debug.xcconfig; sourceTree = "<group>"; };
+		79A85E6C206C2B7B377EA2438A953C38 /* PWGCDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PWGCDTimer.m; path = PWGCDTimer/Classes/PWGCDTimer.m; sourceTree = "<group>"; };
+		7C44A7B43C993EB0AB93803A9B0FB4B3 /* PWGCDTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWGCDTimer.release.xcconfig; sourceTree = "<group>"; };
+		85E4DF188AC3C4DB34F74ED14228AA44 /* Pods-PWGCDTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PWGCDTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		8848138ACE21F4E04F1EBA8111A0965F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		92447C755D25F8876BFB73913933A515 /* Pods-PWGCDTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWGCDTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		95035058A8F3B30F8DD8B0047691D622 /* Pods-PWGCDTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PWGCDTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C07C3D55C98DA419C40197D62CFC8DF /* Pods-PWGCDTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PWGCDTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A12CC85D743255F8640162BBE5A3ABD8 /* Pods-PWGCDTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWGCDTimer_Example-Info.plist"; sourceTree = "<group>"; };
+		A314880C97DEE18764711EBCD8E4A2D1 /* PWGCDTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PWGCDTimer-Info.plist"; sourceTree = "<group>"; };
+		A4D4782FE8A6D4FDB2989437D883DE44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AA784D47C613675C8298960A370FDB97 /* PWGCDTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PWGCDTimer-dummy.m"; sourceTree = "<group>"; };
+		BF54C422CFB719D343089250496172F1 /* Pods-PWGCDTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWGCDTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3E3D0CA49233AA12051D41248FF6A57 /* Pods-PWGCDTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PWGCDTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		C5A0D8EA259C54FAB2625E2E5F1F669A /* PWGCDTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWGCDTimer-prefix.pch"; sourceTree = "<group>"; };
+		CF2F6E7B1E5710D91B38D7633B6715B4 /* PWGCDTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWGCDTimer-umbrella.h"; sourceTree = "<group>"; };
+		D2205A50AD159092C7CADCA13F946286 /* Pods-PWGCDTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWGCDTimer_Tests-Info.plist"; sourceTree = "<group>"; };
+		D7B576468C49763822A3B44B9BBF6A0F /* Pods_PWGCDTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWGCDTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF87B59F0B5BB8E67428D08CC5229D41 /* Pods-PWGCDTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWGCDTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E2E58252B3E0930C31F2DFDDA5EAD118 /* Pods-PWGCDTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PWGCDTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E7E420FF79A3DE8B3112023B67CF55B1 /* Pods_PWGCDTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWGCDTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189B3279034AC1EF64C7FB3B45739C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E7C477378083046F02146D658CB290 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516EDFE7B111F5B60020C884F22B36E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42228814DC061165BDFA6B0119BF7A62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924D52EC8D8E3D44A02F257DDBB9C40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1252D6AA2283E5C574B5BA813534528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB3D41E8981A27C2B0A7823892CE985 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88625BCF4C10E302C2A547E7AB798C52 /* PWGCDTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44340822139C3E23736D6DF663192FCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E04962DF7886ADBD198033A4251217 /* PWGCDTimer.modulemap */,
+				AA784D47C613675C8298960A370FDB97 /* PWGCDTimer-dummy.m */,
+				A314880C97DEE18764711EBCD8E4A2D1 /* PWGCDTimer-Info.plist */,
+				C5A0D8EA259C54FAB2625E2E5F1F669A /* PWGCDTimer-prefix.pch */,
+				CF2F6E7B1E5710D91B38D7633B6715B4 /* PWGCDTimer-umbrella.h */,
+				6D1917763DA76DDAF280101FAE28530F /* PWGCDTimer.debug.xcconfig */,
+				7C44A7B43C993EB0AB93803A9B0FB4B3 /* PWGCDTimer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PWGCDTimer";
+			sourceTree = "<group>";
+		};
+		88625BCF4C10E302C2A547E7AB798C52 /* PWGCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				08F34A28E1286BFBA6416B0DEC83B164 /* PWGCDTimer.h */,
+				79A85E6C206C2B7B377EA2438A953C38 /* PWGCDTimer.m */,
+				B9D668EA1FA700FA610FAF595746169D /* Pod */,
+				44340822139C3E23736D6DF663192FCA /* Support Files */,
+			);
+			name = PWGCDTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8B245DD6B86DC74194572037C0B80969 /* Pods-PWGCDTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0824709EF5F3234604B48FEC80F78BFE /* Pods-PWGCDTimer_Tests.modulemap */,
+				95035058A8F3B30F8DD8B0047691D622 /* Pods-PWGCDTimer_Tests-acknowledgements.markdown */,
+				3A5BAD21517B723FF3B168BA9F01B88D /* Pods-PWGCDTimer_Tests-acknowledgements.plist */,
+				1EA4A54EB167D94657443B2158811E0F /* Pods-PWGCDTimer_Tests-dummy.m */,
+				D2205A50AD159092C7CADCA13F946286 /* Pods-PWGCDTimer_Tests-Info.plist */,
+				E2E58252B3E0930C31F2DFDDA5EAD118 /* Pods-PWGCDTimer_Tests-umbrella.h */,
+				92447C755D25F8876BFB73913933A515 /* Pods-PWGCDTimer_Tests.debug.xcconfig */,
+				6CF8C2C8B4F3A5D1E8A1C71225525E7D /* Pods-PWGCDTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-PWGCDTimer_Tests";
+			path = "Target Support Files/Pods-PWGCDTimer_Tests";
+			sourceTree = "<group>";
+		};
+		A56DF452D30F6BF36708CCABA53F0564 /* Pods-PWGCDTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5A5D29FA2A930E9EF910043E39824FAF /* Pods-PWGCDTimer_Example.modulemap */,
+				9C07C3D55C98DA419C40197D62CFC8DF /* Pods-PWGCDTimer_Example-acknowledgements.markdown */,
+				BF54C422CFB719D343089250496172F1 /* Pods-PWGCDTimer_Example-acknowledgements.plist */,
+				85E4DF188AC3C4DB34F74ED14228AA44 /* Pods-PWGCDTimer_Example-dummy.m */,
+				1EC9B97D5BAA109EB16CD398451E69CA /* Pods-PWGCDTimer_Example-frameworks.sh */,
+				A12CC85D743255F8640162BBE5A3ABD8 /* Pods-PWGCDTimer_Example-Info.plist */,
+				C3E3D0CA49233AA12051D41248FF6A57 /* Pods-PWGCDTimer_Example-umbrella.h */,
+				DF87B59F0B5BB8E67428D08CC5229D41 /* Pods-PWGCDTimer_Example.debug.xcconfig */,
+				5B0B3AE65BAC2E1A4F3B5EE446DC3881 /* Pods-PWGCDTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-PWGCDTimer_Example";
+			path = "Target Support Files/Pods-PWGCDTimer_Example";
+			sourceTree = "<group>";
+		};
+		B9D668EA1FA700FA610FAF595746169D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8848138ACE21F4E04F1EBA8111A0965F /* LICENSE */,
+				3B36D98354F927E15A3D7EDDEF87E623 /* PWGCDTimer.podspec */,
+				A4D4782FE8A6D4FDB2989437D883DE44 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE0D0BB720C3C4D1DA55ECD35F96E1D8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56DF452D30F6BF36708CCABA53F0564 /* Pods-PWGCDTimer_Example */,
+				8B245DD6B86DC74194572037C0B80969 /* Pods-PWGCDTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1CB3D41E8981A27C2B0A7823892CE985 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D666FC6D98075C58C1F2D6454272A965 /* Products */,
+				BE0D0BB720C3C4D1DA55ECD35F96E1D8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D666FC6D98075C58C1F2D6454272A965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E420FF79A3DE8B3112023B67CF55B1 /* Pods_PWGCDTimer_Example.framework */,
+				D7B576468C49763822A3B44B9BBF6A0F /* Pods_PWGCDTimer_Tests.framework */,
+				0D6445C093DB94E0F0085B848F8D673B /* PWGCDTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		509FABE0FA7C8CAC6A94D3A39B6439D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C52B95C58D7158662CB3B402621D2 /* Pods-PWGCDTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03ED80C581B8ED9A829B94C73EB7558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E128F146815D6D40794ECAD57E1DCE87 /* Pods-PWGCDTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD76A28420F32D82A20F2D697B268B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A94FCE4D833C7F2B3ED6F05A626A60 /* PWGCDTimer-umbrella.h in Headers */,
+				8B99BBAD02DC720F39759BC755718129 /* PWGCDTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		272087772D7F72B9F40FEBA217537D51 /* Pods-PWGCDTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCCA8F09FC2B6832400E01C6CEF1A6B /* Build configuration list for PBXNativeTarget "Pods-PWGCDTimer_Example" */;
+			buildPhases = (
+				B03ED80C581B8ED9A829B94C73EB7558 /* Headers */,
+				4EEF913B84541CEF5017F965F94CCF45 /* Sources */,
+				924D52EC8D8E3D44A02F257DDBB9C40E /* Frameworks */,
+				8CA6493832028C04E3CC31DF6BC232B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68BD7CF38C60FC45BB77CBBE534CE4A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PWGCDTimer_Example";
+			productName = "Pods-PWGCDTimer_Example";
+			productReference = E7E420FF79A3DE8B3112023B67CF55B1 /* Pods_PWGCDTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68CF49ED853F4B02AD4BD6260EB1D230 /* PWGCDTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7483AA265A0691B6071A26A5014E249F /* Build configuration list for PBXNativeTarget "PWGCDTimer" */;
+			buildPhases = (
+				FD76A28420F32D82A20F2D697B268B7F /* Headers */,
+				C879C16834B58F08A4C1CD451CF90212 /* Sources */,
+				516EDFE7B111F5B60020C884F22B36E5 /* Frameworks */,
+				E07C881BE6B45FFD982604F38113A45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PWGCDTimer;
+			productName = PWGCDTimer;
+			productReference = 0D6445C093DB94E0F0085B848F8D673B /* PWGCDTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		744BD102C4F40943AB250E03C3B09517 /* Pods-PWGCDTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681446A2AB5D4D41615807B229FDCBFB /* Build configuration list for PBXNativeTarget "Pods-PWGCDTimer_Tests" */;
+			buildPhases = (
+				509FABE0FA7C8CAC6A94D3A39B6439D4 /* Headers */,
+				9B4C3064C263C8D43916FE73E9A9CCB3 /* Sources */,
+				189B3279034AC1EF64C7FB3B45739C76 /* Frameworks */,
+				41EAD2D01EDB1BFE228F9BABB66133FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D22F53B0229B89CB240DD10AAC85AD /* PBXTargetDependency */,
+			);
+			name = "Pods-PWGCDTimer_Tests";
+			productName = "Pods-PWGCDTimer_Tests";
+			productReference = D7B576468C49763822A3B44B9BBF6A0F /* Pods_PWGCDTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D666FC6D98075C58C1F2D6454272A965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272087772D7F72B9F40FEBA217537D51 /* Pods-PWGCDTimer_Example */,
+				744BD102C4F40943AB250E03C3B09517 /* Pods-PWGCDTimer_Tests */,
+				68CF49ED853F4B02AD4BD6260EB1D230 /* PWGCDTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41EAD2D01EDB1BFE228F9BABB66133FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA6493832028C04E3CC31DF6BC232B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07C881BE6B45FFD982604F38113A45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EEF913B84541CEF5017F965F94CCF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD15606B0B28DAA754ED36AE308F0220 /* Pods-PWGCDTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4C3064C263C8D43916FE73E9A9CCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AEDBF1F1CCCE83719926DE6F130529 /* Pods-PWGCDTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C879C16834B58F08A4C1CD451CF90212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C195DD4F33FFCDE30B388920454FDB0D /* PWGCDTimer-dummy.m in Sources */,
+				3EC0F877E79B08DEC5845C956277DB55 /* PWGCDTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D22F53B0229B89CB240DD10AAC85AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PWGCDTimer_Example";
+			target = 272087772D7F72B9F40FEBA217537D51 /* Pods-PWGCDTimer_Example */;
+			targetProxy = 7EBD42BD4643E519AB3BD4BFBB378035 /* PBXContainerItemProxy */;
+		};
+		68BD7CF38C60FC45BB77CBBE534CE4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PWGCDTimer;
+			target = 68CF49ED853F4B02AD4BD6260EB1D230 /* PWGCDTimer */;
+			targetProxy = 6F39EAC81C6B25FAE8E138BB06DC6BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166D40A2EE517BC5959FD39C90E9FB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF87B59F0B5BB8E67428D08CC5229D41 /* Pods-PWGCDTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PWGCDTimer_Example/Pods-PWGCDTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PWGCDTimer_Example/Pods-PWGCDTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E9C8DDA3043B3DB5E979EFCD1C52D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0B3AE65BAC2E1A4F3B5EE446DC3881 /* Pods-PWGCDTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PWGCDTimer_Example/Pods-PWGCDTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PWGCDTimer_Example/Pods-PWGCDTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50547FF981E3B7F89C5A292CBE8826B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1917763DA76DDAF280101FAE28530F /* PWGCDTimer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PWGCDTimer/PWGCDTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PWGCDTimer/PWGCDTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PWGCDTimer/PWGCDTimer.modulemap";
+				PRODUCT_MODULE_NAME = PWGCDTimer;
+				PRODUCT_NAME = PWGCDTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DF792B5675818867C95F03EE9A5D3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FD71773042905E27246BA3AF727C6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92447C755D25F8876BFB73913933A515 /* Pods-PWGCDTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PWGCDTimer_Tests/Pods-PWGCDTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PWGCDTimer_Tests/Pods-PWGCDTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFFAE48B538C8105CC07B0D9F96A7E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C44A7B43C993EB0AB93803A9B0FB4B3 /* PWGCDTimer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PWGCDTimer/PWGCDTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PWGCDTimer/PWGCDTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PWGCDTimer/PWGCDTimer.modulemap";
+				PRODUCT_MODULE_NAME = PWGCDTimer;
+				PRODUCT_NAME = PWGCDTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE55861AB8BDFB3786DDE452F83A4836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D6ABD3C6762F30D67B2B23EBC9F64F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF8C2C8B4F3A5D1E8A1C71225525E7D /* Pods-PWGCDTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PWGCDTimer_Tests/Pods-PWGCDTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PWGCDTimer_Tests/Pods-PWGCDTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF792B5675818867C95F03EE9A5D3C6 /* Debug */,
+				CE55861AB8BDFB3786DDE452F83A4836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681446A2AB5D4D41615807B229FDCBFB /* Build configuration list for PBXNativeTarget "Pods-PWGCDTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD71773042905E27246BA3AF727C6A2 /* Debug */,
+				D6ABD3C6762F30D67B2B23EBC9F64F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7483AA265A0691B6071A26A5014E249F /* Build configuration list for PBXNativeTarget "PWGCDTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50547FF981E3B7F89C5A292CBE8826B8 /* Debug */,
+				AFFAE48B538C8105CC07B0D9F96A7E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCCA8F09FC2B6832400E01C6CEF1A6B /* Build configuration list for PBXNativeTarget "Pods-PWGCDTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166D40A2EE517BC5959FD39C90E9FB53 /* Debug */,
+				3E9C8DDA3043B3DB5E979EFCD1C52D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
